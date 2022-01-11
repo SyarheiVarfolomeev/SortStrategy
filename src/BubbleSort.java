@@ -15,4 +15,9 @@ public class BubbleSort implements Strategy {
         }
         return arrayInt;
     }
+
+    @Override
+    public String toString() {
+        return "BubbleSort{}";
+    }
 }

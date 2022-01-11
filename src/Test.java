@@ -8,6 +8,7 @@ public class Test {
         SortingContext context1 = new SortingContext(new BubbleSort());
         System.out.println(Arrays.toString(context1.ExecuteStrategy(array1)));
 
+
         SortingContext context2 = new SortingContext(new SelectionSort());
         System.out.println(Arrays.toString(context2.ExecuteStrategy(array1)));
     }
